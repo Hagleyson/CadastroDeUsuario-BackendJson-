@@ -2,12 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "node ./server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "hagleyson",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.3"
